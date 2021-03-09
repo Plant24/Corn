@@ -413,9 +413,9 @@ export default class Classify extends Component {
                   onSelect={this.handleTabSelect}
                   className="justify-content-center"
                 >
-                  <Tab eventKey="localfile" title="Select Local File">
+                  <Tab eventKey="localfile" title="Select Or Take Image">
                     <Form.Group controlId="file">
-                      <Form.Label>Select Image File</Form.Label>
+                      <Form.Label>Select Or Take Image</Form.Label>
                       <br />
                       <Form.Label className="imagelabel">
                         {this.state.filename
