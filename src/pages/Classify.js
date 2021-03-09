@@ -6,11 +6,11 @@ import {
   Container,
   Form,
   Spinner,
-  ListGroup,
+  ListGroup, 
   Tabs,
   Tab,
 } from "react-bootstrap";
-import { FaCamera, FaChevronDown, FaChevronRight } from "react-icons/fa";
+import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { openDB } from "idb";
 import Cropper from "react-cropper";
 import * as tf from "@tensorflow/tfjs";
